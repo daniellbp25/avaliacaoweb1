@@ -1,0 +1,155 @@
+body{
+    background-color: #292929;
+
+    }
+
+*{
+padding: 0;
+margin: 0;
+
+}
+
+li {
+    list-style-type: none;
+  }
+
+    .cabecalho{
+    color: #00BFFF;
+    /*left: 0;
+    top:0;
+    position: fixed;*/
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px 20px 30px;
+    width: 100%;
+    /*background-color: aqua;*/
+    
+    }
+
+    .cabecalho_titulo{
+     font-size: 30px;
+     padding: 10px;
+     display: flex;
+     flex-direction: row;
+     gap: 40px;
+     text-align: right;
+    
+    }
+
+    .cabecalho_img{
+         height: 70px;
+         width: 70px;
+         border-radius: 20px;
+         padding: 5px;
+
+    }
+
+    .cabecalho_links{
+     text-decoration: none;
+     color: #00BFFF;
+     font-size: 25px;
+     font-family: Russon One;
+    }
+    
+    .cabecalho_menu{  
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    text-align: center;
+    padding: 5px 25px;
+    margin-left: 50px;
+    }
+    
+    .cabecalho_menu :hover{
+        color:#FCFCFC;
+
+      
+    }
+    
+    
+    .Main{
+     margin-left: 150px;
+     margin-top: 100px;
+    }
+
+    .Main_aside{
+        font-size: 19px;
+        text-align: justify;
+        width: 500px;
+        height: auto;
+        color: #FCFCFC;
+        font-size: 20px;
+        }
+    
+    .Main_titulo{
+    color:white;
+    font-family: Russo One;
+    font-size: 25px;
+    }
+
+    .Main_img{
+       height: 300px;
+       width: 300px;
+       margin-left: 750px ;
+       margin-top: -250px;
+       border: 2px solid #00BFFF;
+       border-radius: 20px;
+
+
+    }
+
+    .Footer_links{
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      border: 2px solid white;
+      padding: 0px 20px 10px 10px;
+      border-radius: 8px;
+
+    }
+
+    .Footer_subtitulo{
+     color: #FCFCFC;
+     padding: 10px 20px 30px 30px;
+     margin-bottom: -10px;
+     font-size: 25px;
+     font-family: Russo one;
+    }
+
+
+    .Footer_linksimg{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -10px;
+    padding: 5px;
+ 
+
+    }
+    
+    .Footer_linkM{
+    display: flex;
+   flex-direction: row;
+   gap: 150px;
+   padding: 0px 50px 30px 50px;
+   margin-left: 400px;
+
+    }
+
+    .Footer_linkM :hover{
+      color: #292929;
+    
+        }
+
+
+    .Footer{
+      width: 100%;
+      height:auto;
+      background-color: #00BFFF;
+      bottom: 0;
+      left: 0;
+    position: fixed;
+
+
+    }
+    
+   
