@@ -33,6 +33,7 @@ li {
      flex-direction: row;
      gap: 40px;
      text-align: right;
+     
     
     }
 
@@ -57,7 +58,7 @@ li {
     gap:50px;
     text-align: center;
     padding: 5px 25px;
-    margin-left: 50px;
+  
     }
     
     .cabecalho_menu :hover{
@@ -68,30 +69,38 @@ li {
     
     
     .Main{
-     margin-left: 150px;
-     margin-top: 100px;
+     
     }
 
     .Main_aside{
-        font-size: 19px;
         text-align: justify;
         width: 500px;
         height: auto;
         color: #FCFCFC;
         font-size: 20px;
+        margin-left: 10%;
         }
+
     
     .Main_titulo{
     color:white;
     font-family: Russo One;
     font-size: 25px;
+    margin-left: 10%;
     }
 
+    .Main_Subtitulo{
+      color:white;
+      font-family: Russo One;
+      font-size: 20px;
+      margin-left: 10%;
+      }
+
     .Main_img{
-       height: 300px;
-       width: 300px;
+       height: 200px;
+       width: 200px;
        margin-left: 750px ;
-       margin-top: -250px;
+       margin-top: -150px;
        border: 2px solid #00BFFF;
        border-radius: 20px;
 
