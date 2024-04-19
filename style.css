@@ -1,6 +1,9 @@
+
 body{
     background-color: #292929;
-
+    margin: 0 0 150px; /* altura do seu footer */
+    width: 100%;
+    
     }
 
 *{
@@ -99,10 +102,11 @@ li {
     .Main_img{
        height: 200px;
        width: 200px;
-       margin-left: 750px ;
+       margin-left: 70% ;
        margin-top: -150px;
        border: 2px solid #00BFFF;
        border-radius: 20px;
+     
 
 
     }
@@ -140,7 +144,7 @@ li {
    flex-direction: row;
    gap: 150px;
    padding: 0px 50px 30px 50px;
-   margin-left: 400px;
+   margin-left: 150px;
 
     }
 
@@ -156,7 +160,8 @@ li {
       background-color: #00BFFF;
       bottom: 0;
       left: 0;
-    position: fixed;
+      position: fixed;
+  
 
 
     }
