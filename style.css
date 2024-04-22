@@ -100,15 +100,21 @@ li {
       }
 
     .Main_img{
-       height: 200px;
-       width: 200px;
-       margin-left: 70% ;
+       height: 180px;
+       width: 180px;
+       margin-left: 55% ;
        margin-top: -150px;
        border: 2px solid #00BFFF;
        border-radius: 20px;
+       
+       
      
 
 
+    }
+
+    .espaço{
+      margin: 60px 0;
     }
 
     .Footer_links{
