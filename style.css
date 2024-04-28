@@ -1,8 +1,8 @@
 :root{
-  --background-color: white;
-  --primary-color: #B08968;
-  --secondary-color: black;
-  --tertiary-color: #7F5539;
+  --background-color: #292929;
+  --primary-color:  #292929;
+  --secondary-color: white;
+  --tertiary-color: #5e2129;
   --primary-font:  Russo One; 
 
 
@@ -14,12 +14,12 @@
 
 
 body{
-    background-color: var(--background-color);
+    background-color: var(--primary-color);
     margin: 0 0 150px; /* altura do seu footer */
     width: 100%;
     min-height: 100vh;
     display: block;
-    
+    overflow-x: hidden;
     }
 
 *{
@@ -34,7 +34,6 @@ li {
 
     .cabecalho{
     background-color: var(--tertiary-color);
-    color: var(--primary-color);
     left: 0;
     top:0;
     display: flex;
@@ -52,8 +51,9 @@ li {
      flex-direction: row;
      gap: 40px;
      text-align: right;
-     
-     
+     position: relative;
+     margin-top: 20px;
+     color: var(--secondary-color);
     
     }
 
@@ -61,14 +61,16 @@ li {
          height: 70px;
          width: 70px;
          border-radius: 20px;
-         padding: 5px;
+         padding: 5px; 
+         position: relative;
+         margin-top: -20px;
 
 
     }
 
     .cabecalho_links{
      text-decoration: none;
-     color: var(--primary-color);
+     color: var(--secondary-color);
      font-size: 25px;
      font-family: Russo One;
      text-align: center;
@@ -82,7 +84,9 @@ li {
     padding: 5px 25px;
     height:10%;
     position: relative;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    
   
     }
     
@@ -108,7 +112,7 @@ li {
         color: var(--secondary-color);
         font-size: 20px;
         text-align: justify;
-        margin-left: 20%;;
+        margin-left: 30%;
         }
 
     
@@ -116,83 +120,134 @@ li {
     color:var(--secondary-color);
     font-family: Russo One;
     font-size: 30px;
-    margin-left: 33%;
+    margin-left: 38%;
     }
 
     .Main_Subtitulo{
       color:var(--secondary-color);
       font-family: Russo One;
       font-size: 25px;
-      margin-left: 35%;
+      margin-left: 40%;
       }
 
     .Main_img{
        height: 100px;
        width: 100px;
-       border: 2px solid var(--primary-color);
+       border: 2px solid var(--secondary-color);
        border-radius: 20px;
     }
 
     .img_1{
-      height: 200px;
-      width: 200px;
+      height: 180px;
+      width: 180px;
       border: 2px solid var(--secondary-color);
       border-radius: 20px;
       padding: 5px;
-      left: 10%;
-      bottom: 12%;
+      left: 8%;
+      bottom: 17%;
       position: absolute;
       gap:10px;
    }
 
    .img_2{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border: 2px solid var(--secondary-color);
     border-radius: 20px;
     padding: 5px;
-    left: 30%;
-    bottom: 12%;
+    left: 26%;
+    bottom: 17%;
     position: absolute;
     gap:10px;
  }
 
  .img_3{
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border: 2px solid var(--secondary-color);
   border-radius: 20px;
   padding: 5px;
-  left: 50%;
-  bottom: 12%;
+  left: 44%;
+  bottom: 17%;
   position: absolute;
   gap:10px;
 }
 
 .img_4{
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border: 2px solid var(--secondary-color);
   border-radius: 20px;
   padding: 5px;
-  left: 70%;
-  bottom: 12%;
+  left: 62%;
+  bottom: 17%;
   position: absolute;
   gap:10px;
 }
 
 .img_5{
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border: 2px solid var(--secondary-color);
   border-radius: 20px;
   padding: 5px;
-  margin-left: 50%;
-  margin-top: 30%;
+  left: 80%;
+  bottom: 17%;
+  position: absolute;
   gap:10px;
 }
 
+ .p_1{
+  text-align: left;
+  color: var(--secondary-color);
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 12%;
+  position:absolute;
+  bottom: 42%;
+ }
 
+ .p_2{
+  text-align: left;
+  color: var(--secondary-color);
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 30%;
+  position:absolute;
+  bottom: 42%;
+  
+ }
+ .p_3{
+  text-align: left;
+  color: var(--secondary-color);
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 48%;
+  position:absolute;
+  bottom: 42%;
+  
+ }
+ .p_4{
+  text-align: left;
+  color: var(--secondary-color);
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 67%;
+  position:absolute;
+  bottom: 42%;
+  
+ }
+ .p_5{
+  text-align: left;
+  color: var(--secondary-color);
+  font-size: 25px;
+  text-align: justify;
+  margin-left: 84%;
+  position:absolute;
+  bottom: 42%;
+
+  
+ }
     .espaço{
       margin: 60px 0;
     }
@@ -210,7 +265,6 @@ li {
     .Footer_subtitulo{
      color: var(--secondary-color);
      padding: 10px 20px 30px 30px;
-     margin-bottom: -10px;
      font-size: 25px;
      font-family: Russo one;
     }
@@ -230,7 +284,7 @@ li {
    flex-direction: row;
    gap: 150px;
    padding: 0px 50px 30px 50px;
-   margin-left: 20%;
+   margin-left: 24%;
 
     }
 
@@ -246,18 +300,14 @@ li {
  }
 }
 
-    .Footer{
+    Footer{
       width: 100%;
-      height:auto;
       background-color:var(--tertiary-color);
-      
-      left: 0;
-      position: fixed;
+     position: fixed;
       bottom: 0;
-   
-  
-
-
+      padding: 10px 0;
+      text-align: center;
     }
-    
+
+   
    
