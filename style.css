@@ -1,3 +1,13 @@
+@import url("./styles/header.css");
+@import url("./styles/main.css");
+@import url("./styles/footer.css");
+
+
+
+
+
+
+
 :root{
   --background-color: #292929;
   --primary-color:  #292929;
@@ -17,7 +27,7 @@ body{
     background-color: var(--primary-color);
     margin: 0 0 150px; /* altura do seu footer */
     width: 100%;
-    min-height: 100vh;
+      height: 50vw;
     display: block;
     overflow-x: hidden;
     }
@@ -144,7 +154,7 @@ li {
       border-radius: 20px;
       padding: 5px;
       left: 8%;
-      bottom: 17%;
+      bottom: 1%;
       position: absolute;
       gap:10px;
    }
@@ -156,7 +166,7 @@ li {
     border-radius: 20px;
     padding: 5px;
     left: 26%;
-    bottom: 17%;
+    bottom: 1%;
     position: absolute;
     gap:10px;
  }
@@ -168,7 +178,7 @@ li {
   border-radius: 20px;
   padding: 5px;
   left: 44%;
-  bottom: 17%;
+  bottom: 1%;
   position: absolute;
   gap:10px;
 }
@@ -180,7 +190,7 @@ li {
   border-radius: 20px;
   padding: 5px;
   left: 62%;
-  bottom: 17%;
+  bottom: 1%;
   position: absolute;
   gap:10px;
 }
@@ -192,7 +202,7 @@ li {
   border-radius: 20px;
   padding: 5px;
   left: 80%;
-  bottom: 17%;
+  bottom: 1%;
   position: absolute;
   gap:10px;
 }
@@ -204,7 +214,7 @@ li {
   text-align: justify;
   margin-left: 12%;
   position:absolute;
-  bottom: 42%;
+  bottom: 32%;
  }
 
  .p_2{
@@ -214,7 +224,7 @@ li {
   text-align: justify;
   margin-left: 30%;
   position:absolute;
-  bottom: 42%;
+  bottom: 32%;
   
  }
  .p_3{
@@ -224,7 +234,7 @@ li {
   text-align: justify;
   margin-left: 48%;
   position:absolute;
-  bottom: 42%;
+  bottom: 32%;
   
  }
  .p_4{
@@ -234,7 +244,7 @@ li {
   text-align: justify;
   margin-left: 67%;
   position:absolute;
-  bottom: 42%;
+  bottom: 32%;
   
  }
  .p_5{
@@ -244,7 +254,7 @@ li {
   text-align: justify;
   margin-left: 84%;
   position:absolute;
-  bottom: 42%;
+  bottom: 32%;
 
   
  }
@@ -303,7 +313,7 @@ li {
     Footer{
       width: 100%;
       background-color:var(--tertiary-color);
-     position: fixed;
+     position: static;
       bottom: 0;
       padding: 10px 0;
       text-align: center;
