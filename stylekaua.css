@@ -112,7 +112,7 @@
           color: var(--secondary-color);
           font-size: 20px;
           text-align: justify;
-          margin-left: 30%;
+          margin-left: 45%;
           }
   
       
@@ -120,14 +120,14 @@
       color:var(--secondary-color);
       font-family: Russo One;
       font-size: 30px;
-      margin-left: 38%;
+      margin-left: 46%;
       }
   
       .Main_Subtitulo{
         color:var(--secondary-color);
         font-family: Russo One;
         font-size: 25px;
-        margin-left: 40%;
+        margin-left: 45%;
         }
   
       .Main_img{
@@ -136,6 +136,16 @@
          border: 2px solid var(--secondary-color);
          border-radius: 20px;
       }
+
+      .Main_foto{
+        height: 180px;
+        width: 180px;
+        border: 2px solid var(--secondary-color);
+        border-radius: 20px;
+        position: absolute;
+        left: 20%;
+        bottom: 50%;
+     }
   
       .img_1{
         height: 130px;
