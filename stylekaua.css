@@ -1,13 +1,18 @@
+@import url("./styles/header.css");
+
+
+
+
+
+
+
 :root{
     --background-color: #292929;
     --primary-color:  #292929;
     --secondary-color: white;
     --tertiary-color: #5e2129;
     --primary-font:  Russo One; 
-  
-  
-  
-  
+
   }
   
   
