@@ -266,9 +266,9 @@
      color: var(--secondary-color);
      font-size: 20px;
      text-align: center;
-     left: 5%;
+     left: 24%;
      position: absolute;
-     bottom: 73%;
+     bottom: 75%;
     }
     
     .Container1_p_2{
@@ -276,9 +276,9 @@
      color: var(--secondary-color);
      font-size: 20px;
      text-align: center;
-     left: 5%;
+     left: 20%;
      position: absolute;
-     bottom: 45%;
+     bottom: 47%;
      
     }
     .Container1_p_3{
@@ -286,9 +286,9 @@
      color: var(--secondary-color);
      font-size: 20px;
      text-align: center;
-     left: 10%;
+     left: 5%;
      position: absolute;
-     bottom: 15%;
+     bottom: 17%;
      
     }
     .Container2_p_1{
@@ -306,7 +306,7 @@
      color: var(--secondary-color);
      font-size: 20px;
      text-align: center;
-     left: 34%;
+     left: 25%;
      position: absolute;
      bottom: 47%;
     
@@ -317,7 +317,7 @@
      color: var(--secondary-color);
      font-size: 20px;
      text-align: center;
-     left: 15%;
+     left: 30%;
      position:absolute;
      bottom: 17%;
     
@@ -328,7 +328,7 @@
      font-size: 18px;
      color: var(--secondary-color);
      position: absolute;
-     bottom: 67%;
+     bottom: 69%;
      left: 5%;
     }
     
@@ -337,7 +337,7 @@
      font-size: 18px;
      color: var(--secondary-color);
      position: absolute;
-     bottom: 39%;
+     bottom: 41%;
      left: 5%;
     }
     
@@ -346,7 +346,7 @@
      font-size: 18px;
      color: var(--secondary-color);
      position: absolute;
-     bottom: 7%;
+     bottom: 9%;
      left: 2%;
     }
     
@@ -365,8 +365,8 @@
      font-size: 18px;
      color: var(--secondary-color);
      position: absolute;
-     bottom: 41%;
-     left: 5%;
+     bottom: 37%;
+     left: 3%;
     }
     
     .container2_text3{
@@ -374,7 +374,7 @@
      font-size: 18px;
      color: var(--secondary-color);
      position: absolute;
-     bottom: 11%;
+     bottom: 7%;
      left: 2%;
     }
     
